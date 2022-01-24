@@ -5,9 +5,9 @@ name: Java CI with Maven and Erlang
 
 on:
   push:
-    branches: [ master ]
+    branches: [ build-release ]
   pull_request:
-    branches: [ master ]
+    branches: [ build-release ]
 
 jobs:
   build:
